@@ -13,7 +13,6 @@ import org.nutz.mvc.annotation.POST;
 import com.xice7.image.filter.PointFilter;
 import com.xice7.image.kit.ImageKit;
 
-@At("/")
 @IocBean
 @Ok("json")
 public class ImageMakerModule {
